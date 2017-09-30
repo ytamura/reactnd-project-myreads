@@ -67,6 +67,8 @@ class BooksApp extends Component {
           this.setState({searchResults: searchResults});
         }
       })
+    } else {
+      this.setState({searchResults: []});
     }
   }
 
