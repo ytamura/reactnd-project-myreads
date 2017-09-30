@@ -147,11 +147,8 @@ body, .app {
   width: 40px;
   height: 40px;
   border-radius: 50%;
-  background: #60ac5d;
+  background: #aaaaaa;
   background-image: url('./icons/arrow-drop-down.svg');
-  background-repeat: no-repeat;
-  background-position: center;
-  background-size: 20px;
   box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
 }
 .book-shelf-changer select {
@@ -159,6 +156,18 @@ body, .app {
   height: 100%;
   opacity: 0;
   cursor: pointer;
+}
+.book-shelf-changer-wantToRead {
+  background: #f48342;
+  background-image: url('./icons/arrow-drop-down.svg');
+}
+.book-shelf-changer-currentlyReading {
+  background: #ede43d;
+  background-image: url('./icons/arrow-drop-down.svg');
+}
+.book-shelf-changer-read {
+  background: #2e7c31;
+  background-image: url('./icons/arrow-drop-down.svg');
 }
 
 /* book cover */
